@@ -1,8 +1,10 @@
 <?php
 
-// $arr = array("nazish", "aaqib", "danish");
+
+// Indexed array :
+// $arr = array("nazish", "aaqib", "danish"); can also be created like that !
 $arr = ["nazish", "aaqib", "danish"];
-echo json_encode($arr);
+echo json_encode($arr);		
 
 echo "<br>";
 
@@ -11,17 +13,17 @@ echo $arr[0];
 
 echo "<br>";
 
-echo count($arr);
+echo count($arr);		/*Counting the size of $arr*/
 
 echo "<br>";
 
 // assosiative array
-$arr = ["name" => "nazish", "age" => 25];
+$arr = ["name" => "nazish", "age" => 25];			/*like dictionary*/
 echo json_encode($arr);
 
 echo "<br>";
 
-// from database
+// from database, the datas comes like that !!
 $arr = [
 	[
 		"name" => "aaqib",
