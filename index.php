@@ -12,6 +12,13 @@
 		<li><a href="operator.php">operator</a></li>
 		<li><a href="checkbox_post.php">checkbox_post</a></li>
 		<li><a href="class_object.php">class_object</a></li>
+		<li><a href="class_inheritance.php">class_inheritance</a></li>
+		<li><a href="class_protected.php">class_protected</a></li>
+		<li><a href="class_method_overriding.php">class_method_overriding</a></li>
+		<li><a href="class_abstract.php">class_abstract</a></li>
+		<li><a href="class_trait.php">class_trait</a></li>
+		<li><a href="class_static.php">class_static</a></li>
+		<li><a href="constant.php">constant</a></li>
 		<li><a href="ifelse.php">ifelse</a></li>
 		<li><a href="loop.php">loop</a></li>
 		<li><a href="function.php">function</a></li>
