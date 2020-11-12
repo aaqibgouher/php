@@ -18,6 +18,8 @@
 		<li><a href="class_abstract.php">class_abstract</a></li>
 		<li><a href="class_trait.php">class_trait</a></li>
 		<li><a href="class_static.php">class_static</a></li>
+		<li><a href="namespace.php">namespace</a></li>
+		<li><a href="namespace_include.php">namespace_include</a></li>
 		<li><a href="constant.php">constant</a></li>
 		<li><a href="ifelse.php">ifelse</a></li>
 		<li><a href="loop.php">loop</a></li>
@@ -26,6 +28,10 @@
 		<li><a href="superglobal.php">superglobal</a></li>
 		<li><a href="request.php">request</a></li>
 		<li><a href="test.php">test</a></li>
+		<li><a href="datatables.php">Datatables</a></li>	
+		<li><a href="loggin.php">loggin</a></li>	
+		<li><a href="test.php">test</a></li>	
+
 	</ol>
 </body>
 </html>

@@ -1,11 +1,11 @@
 <?php
 
-	// In PHP , we can only inherit a child class with one praent class , i.e each class should on parent class . so what we will do to inherit the multiple behaviour. for this we use Trait. We have to define it first, then for use it , we have to write "use" keyword in the class that we want to use.
+	// In PHP , we can only inherit a child class with one praent class , i.e each class should one parent class . so what we will do to inherit the multiple behaviour. for this we use Trait. We have to define it first, then for use it , we have to write "use" keyword in the class that we want to use.
 
 	// 1. this is simple eg :
 	trait Area{
 		public function find_area(){
-			return "this is from trail..<br>";
+			return "this is from trait..<br>";
 		}
 	}
 
@@ -18,7 +18,7 @@
 	echo $rect->find_area();
 
 
-	// 2. In this eg : we will see the multiple inheritence. Using trait, it is possible that a single child can have more that one parents. 
+	// 2. In this eg : we will see the multiple inheritence. Using trait, it is possible that a single child can have more than one parents. 
 	trait First_class{			/*formed one parent trait*/
 		public function message1(){			/*defined one of the method inside the parent trait.*/
 			echo "From first parent class.<br>";

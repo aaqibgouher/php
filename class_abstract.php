@@ -8,7 +8,7 @@
 
 	// If we have defined an abstract classs ,then it is not necessary that we have to define abstract method as well.
 
-	// It is not necessary that if a class is defined with abstract , then there should be an abstract method as well ,it many be or may not be. But if a class is not defined with the abstract , then there should not be any abstract method ..
+	// It is not necessary that if a class is defined with abstract , then there should be an abstract method as well ,it may be or may not be. But if a class is not defined with the abstract , then there should not be any abstract method ..
 
 	// the abstract method can have the incoming parameters as well ..
 

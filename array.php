@@ -41,4 +41,26 @@ echo "<br>";
 $arr_name = array_column($arr, "name");
 echo json_encode($arr_name);
 
+// looping in assosciative array :
+$arr = [
+	[
+		"name" => "Aaqib",
+		"age" => 19,
+		"combination" => "SMC"
+	],
+	[
+		"name" => "Ajay",
+		"age" => 19,
+		"combination" => "SMC"
+	],
+	[
+		"name" => "Subham",
+		"age" => 18,
+		"combination" => "ELECTRICAL"
+	]
+];
+
+foreach($arr as $key => $value){
+	echo $key." => ".json_encode($value)."<br>";
+}
 
